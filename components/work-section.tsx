@@ -125,13 +125,10 @@ export function WorkSection() {
                 </span>
               </div>
 
-              {/* Right Column: Category & Year & Arrow */}
+              {/* Right Column: Category & Arrow */}
               <div className="flex items-center gap-6 md:gap-12 text-sm z-10">
                 <span className="text-white/40 font-medium hidden sm:inline">
                   {project.category}
-                </span>
-                <span className="font-mono text-white/30 group-hover:text-white transition-colors">
-                  {project.year}
                 </span>
                 <span className="flex items-center justify-center w-8 h-8 rounded-full border border-white/10 group-hover:border-[#c9e265] group-hover:bg-[#c9e265] group-hover:text-black transition-all duration-300">
                   <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
